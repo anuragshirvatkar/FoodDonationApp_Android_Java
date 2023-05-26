@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.food_wastage_management">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/sarasam"
+        android:label="Sarasam"
+        android:roundIcon="@drawable/sarasam"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Food_wastage_management"
+        tools:targetApi="31">
+        <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".detailreceiption"
+            android:exported="false" />
+        <activity
+            android:name=".receiption"
+            android:exported="false" />
+        <activity
+            android:name=".detaildonation"
+            android:exported="false" />
+        <activity
+            android:name=".donation"
+            android:exported="false" />
+        <activity
+            android:name=".profile_edit"
+            android:exported="false" />
+        <activity
+            android:name=".profilephoto"
+            android:exported="false" />
+        <activity
+            android:name=".detailtake"
+            android:exported="false" />
+        <activity
+            android:name=".slideactivity"
+            android:exported="false" />
+        <activity
+            android:name=".upload"
+            android:exported="false" />
+        <activity
+            android:name=".homepage2"
+            android:exported="false" />
+        <activity
+            android:name=".loginregister"
+
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

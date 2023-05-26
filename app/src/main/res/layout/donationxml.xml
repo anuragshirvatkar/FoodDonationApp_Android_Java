@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="15dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/dmycard"
+        android:layout_width="match_parent"
+        android:layout_height="323dp"
+        android:layout_margin="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="1dp"
+        app:cardUseCompatPadding="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/yellow"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="@color/yellow"
+            android:weightSum="6">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dabc1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_launcher_foreground" />
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:background="@color/yellow"
+                android:layout_height="45dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dinstaid"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Gandu"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/dphonenum7"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Gandu"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical"
+            android:background="@color/yellow"
+            android:weightSum="6">
+
+            <ImageView
+                android:id="@+id/divmage"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+
+
+
+                android:src="@drawable/foodd" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:orientation="vertical"
+            android:background="@color/yellow"
+            android:layout_marginTop="215dp">
+            <TextView
+                android:id="@+id/dnameoffood"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:text="Ajinkya Chutya"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/ddesoffood"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:text="Ajinkya Chutya"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/dadsoffood"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:text="Ajinkya Chutya"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/keyofdeletin"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/yellow"
+
+                android:text="Ajinkya Chutya"
+                android:layout_marginLeft="10dp"
+
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

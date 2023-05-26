@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "770894152784",
+    "firebase_url": "https://food-wastage-management-63d00-default-rtdb.firebaseio.com",
+    "project_id": "food-wastage-management-63d00",
+    "storage_bucket": "food-wastage-management-63d00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770894152784:android:5a7e4d989f8d5917ffbd55",
+        "android_client_info": {
+          "package_name": "com.example.food_wastage_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770894152784-2l5g6viki3fnu85rqrkadtqqcfrhgqn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8MecEhqj7KH12STE7BV-t8vsilzZIls0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770894152784-2l5g6viki3fnu85rqrkadtqqcfrhgqn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
